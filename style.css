@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(62, 0, 31);
+}
+
+/*style="right: 313px;top:12px"*/
+/*style="right: 102px;top:12px"*/
+/*/*style="right: 102px;top:12px"*/
+.menu{
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-evenly ;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: absolute;
+    top: 10px;
+    right: 102px;
+    align-items: center;
+}
+li{
+    list-style-type: none;
+}
+
+.title-kutman{
+    width: 464px;
+    height: 109px;
+    color: #FFE5AD;
+    font-family: Lobster;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140px; /* 218.75% */
+    padding-left: 3%;
+}
+
+.menu-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    color: #FFE5AD;
+    text-align: center;
+    font-family: Lobster Two;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px; /* 171.875% */
+    letter-spacing: 0.96px;
+    
+}
+
+.menu-img-button{
+    position: static;
+    padding-top: 10px;
+}
+
+.doodle-text{
+    color: #FFF;
+    font-family: Gochi Hand;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px; /* 137.5% */
+    letter-spacing: 1.2px;
+}
+
+.main-text{
+    color: #FFE5AD;
+    font-family: Monoton;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140px; /* 109.375% */
+    width: 1010px;
+    height: 134px;
+    white-space: nowrap;
+    position: absolute;
+    padding-left: 40%;
+    top: 32.5%;
+}
+
+.main-doodle-text{
+    color: #FFF;
+    font-family: Gochi Hand;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px; /* 137.5% */
+    letter-spacing: 1.2px;
+    position: absolute;
+    padding-left: 40.1%;
+    top: 56%;
+}
+
+
+.doodle{
+    position: absolute;
+}
+
+.black-doodle-text{
+    color: #000000;
+    font-family: Gochi Hand;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px; /* 137.5% */
+    letter-spacing: 1.2px;
+}
+
+.photo{
+    width: 900px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
